@@ -1,7 +1,25 @@
 .App {
-  text-align: center;
+  /* background-image: url(./image.png); */
+  background: linear-gradient(#2A00B7, #42006C);
 }
 
+.footer{
+margin-top: 500px;
+ text-align: center;
+ display: flex;
+ flex-direction: row;
+justify-content: space-around;
+
+}
+.btn:hover{
+  color: #61dafb;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

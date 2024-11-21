@@ -1,0 +1,95 @@
+{
+    "horror_movies": [
+      {
+        "id":1,
+        "title": "The Exorcist",
+        "rating": 8.0,
+        "director": "William Friedkin",
+        "videoUrl":"https://www.youtube.com/results?search_query=the+exorcist",
+        "description": "A young girl is possessed by a mysterious entity, leading her mother to seek the help of two priests to save her.",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzgwNTJjYzgtMTBmMS00MjRhLWJlNTUtNDcyMzFiM2I5MjAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "id":2,
+        "title": "The Shining",
+        "rating": 8.4,
+        "videoUrl":"https://www.youtube.com/results?search_query=the+shining+",
+        "director": "Stanley Kubrick",
+        "description": "A man takes his family to a remote hotel for the winter, but the isolation brings out dark and sinister forces in him.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg/220px-The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg"
+      },
+      {
+        "id":3,
+        "title": "Psycho",
+        "rating": 8.5,
+        "videoUrl":"https://www.youtube.com/results?search_query=psycho+horror+movie",
+        "director": "Alfred Hitchcock",
+        "description": "A secretary embezzles money and ends up at a secluded motel run by a mysterious man and his mother.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbRxpPEQ6nB3iA3tZKSGAWN1aX_729PB2dA&s"
+      },
+      {
+        "id":4,
+        "title": "Hereditary",
+        "rating": 7.3,
+        "videoUrl":"https://www.youtube.com/results?search_query=hereditary+full+movie",
+        "director": "Ari Aster",
+        "description": "A family is haunted after the death of their secretive grandmother, uncovering horrifying truths about their ancestry.",
+        "image": "https://musicart.xboxlive.com/7/a6e35000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080"
+      },
+      {
+        "id":5,
+        "title": "It Follows",
+        "rating": 6.8,
+        "videoUrl":"https://www.youtube.com/results?search_query=it+follows",
+        "director": "David Robert Mitchell",
+        "description": "After a sexual encounter, a young woman is stalked by a supernatural force that follows her relentlessly.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxcPGXQehhr-iJf6epeZB47kJXZCvxSUgODw&s"
+      },
+      {
+        "id":6,
+        "title": "Get Out",
+        "rating": 7.7,
+        "videoUrl":"https://www.youtube.com/results?search_query=get+out",
+        "director": "Jordan Peele",
+        "description": "A Black man visits his white girlfriend's family, where he uncovers disturbing secrets about their intentions.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD_SDEQ_tsIN2HT-kswLKeGNoOm_29D_L0Cw&s"
+      },
+      {
+        "id":7,
+        "title": "A Nightmare on Elm Street",
+        "rating": 7.5,
+        "videoUrl":"https://www.youtube.com/results?search_query=a+nightmare+on",
+        "director": "Wes Craven",
+        "description": "A group of teenagers are stalked and killed in their dreams by a burned man with a clawed glove, Freddy Krueger.",
+        "image": "https://m.media-amazon.com/images/M/MV5BODIxMTQ0NTIxM15BMl5BanBnXkFtZTcwMzY1NDAyMw@@._V1_FMjpg_UX1000_.jpg"
+      },
+      {
+        "id":8,
+        "title": "The Conjuring",
+        "rating": 7.5,
+        "videoUrl":"https://www.youtube.com/results?search_query=the+conjuring",
+        "director": "James Wan",
+        "description": "Paranormal investigators Ed and Lorraine Warren work to help a family plagued by disturbing events in their farmhouse.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lqVfEFiwZdFrnxCEB6GAZBo9iuTiwgg7Og&s"
+      },
+      {
+        "id":9,
+        "title": "The Babadook",
+        "rating": 6.8,
+        "videoUrl":"https://www.youtube.com/results?search_query=the+babadook",
+        "director": "Jennifer Kent",
+        "description": "A mother and her son are haunted by a sinister presence that emerges from a mysterious book.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/The-Babadook-Poster.jpg"
+      },
+      {
+        "id":10,
+        "title": "Midsommar",
+        "rating": 7.1,
+        "videoUrl":"https://www.youtube.com/results?search_query=midsommar",
+        "director": "Ari Aster",
+        "description": "A group of friends travel to Sweden for a festival, but soon discover that the locals have disturbing traditions.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5INdhea4vn8AoRGix7geG4IaaQtrAkI1NA&s"
+      }
+    ]
+  }
+  
