@@ -1,25 +1,53 @@
 .App {
   /* background-image: url(./image.png); */
   background: linear-gradient(#2A00B7, #42006C);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.footer{
-margin-top: 500px;
- text-align: center;
- display: flex;
- flex-direction: row;
-justify-content: space-around;
-
+/* Footer Styling */
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 0;
 }
-.btn:hover{
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* Stack footer items vertically on tablets and smaller screens */
+    margin-top: 20px;
+  }
+}
+
+/* Button Hover Effect */
+.btn:hover {
   color: #61dafb;
 }
-.nav{
+
+/* Navigation Styling */
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 30px;
+  width: 100%;
 }
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Stack navigation items vertically on smaller screens */
+    padding-top: 20px;
+  }
+}
+
+/* Logo Styling */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -31,6 +59,13 @@ justify-content: space-around;
   }
 }
 
+@media (max-width: 768px) {
+  .App-logo {
+    height: 30vmin; /* Smaller logo on tablets and phones */
+  }
+}
+
+/* Header Styling */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -42,15 +77,58 @@ justify-content: space-around;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 768px) {
+  .App-header {
+    font-size: calc(12px + 3vmin); /* Slightly larger font size on smaller screens */
+  }
 }
 
+/* Links Styling */
+.App-link {
+  color: #61dafb;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .App-link {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Keyframe for Logo Animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Additional responsive styles for small screens */
+@media (max-width: 480px) {
+  .App {
+    padding: 20px; /* Add padding to the app container on mobile screens */
+  }
+
+  .App-header {
+    font-size: calc(14px + 4vmin); /* Increase font size on very small screens */
+  }
+
+  .App-logo {
+    height: 25vmin; /* Make logo smaller on very small screens */
+  }
+
+  .footer {
+    margin-top: 10px;
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .nav {
+    padding-top: 15px;
+  }
+
+  .App-link {
+    font-size: 1rem; /* Adjust font size further for very small screens */
   }
 }

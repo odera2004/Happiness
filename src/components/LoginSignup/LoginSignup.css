@@ -1,4 +1,5 @@
-.container-mx{
+/* Base styles for larger screens */
+.container-mx {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -6,38 +7,38 @@
     margin-top: 200px;
     background: #fff;
     padding-bottom: 30px;
-}
-
-.header{
+  }
+  
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 9px;
     width: 100%;
     margin-top: 30px;
-}
-
-.text{
+  }
+  
+  .text {
     color: #3c009d;
     font-size: 48px;
     font-weight: 700;
-}
-
-.underline{
+  }
+  
+  .underline {
     width: 61px;
     height: 6px;
     background: #3c009d;
     border-radius: 9px;
-}
-
-.inputs{
+  }
+  
+  .inputs {
     margin-top: 55px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-}
-
-.input{
+  }
+  
+  .input {
     display: flex;
     align-items: center;
     margin: auto;
@@ -45,53 +46,124 @@
     height: 80px;
     background: #eaeaea;
     border-radius: 6px;
-}
-
-.input input{
+  }
+  
+  .input input {
     height: 50px;
-    width: 400px;
+    width: 100%;
     background: transparent;
     border: none;
     outline: none;
     color: #797979;
     font-size: 19px;
-}
-
-.forgot-password{
+  }
+  
+  .forgot-password {
     padding-left: 62px;
     margin-top: 27px;
     color: #797979;
     font-size: 18px;
-}
-
-.forgot-password span{
+  }
+  
+  .forgot-password span {
     color: #4c00b4;
     cursor: pointer;
-}
-
-.submit-container{
-display: flex;
-gap: 30px;
-margin: 60px auto;
-
-}
-
-.submit{
-display: flex;
-justify-content: center;
-align-items: center;
-width: 220px;
-height: 59px;
-color: #fff;
-background: #4c00b4;
-border-radius: 50px;
-font-size: 19px;
-font-weight: 700;
-cursor: pointer;
-
-}
-
-.gray{
+  }
+  
+  .submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .gray {
     background: #EAEAEA;
     color: #676767;
-}
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container-mx {
+      width: 90%; /* Make the container smaller on mobile */
+      margin-top: 100px;
+    }
+  
+    .header .text {
+      font-size: 32px; /* Adjust text size for smaller screens */
+    }
+  
+    .input {
+      width: 100%; /* Make input fields take full width */
+      height: 60px;
+    }
+  
+    .input input {
+      font-size: 16px; /* Adjust font size in input fields */
+    }
+  
+    .forgot-password {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      padding-left: 40px; /* Adjust padding */
+    }
+  
+    .submit-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .submit {
+      width: 100%; /* Buttons should take full width on mobile */
+      font-size: 16px; /* Adjust button font size */
+    }
+  
+    .gray {
+      background: #eaeaea;
+      color: #676767;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-mx {
+      width: 100%; /* Container takes full width on very small devices */
+      margin-top: 50px;
+    }
+  
+    .header .text {
+      font-size: 24px; /* Further reduce font size for small devices */
+    }
+  
+    .input {
+      width: 100%; /* Full width inputs */
+      height: 50px;
+    }
+  
+    .input input {
+      font-size: 14px; /* Smaller font size for very small screens */
+    }
+  
+    .forgot-password {
+      font-size: 14px;
+      padding-left: 20px; /* Reduce padding */
+    }
+  
+    .submit {
+      width: 100%;
+      font-size: 14px; /* Adjust button font size */
+    }
+  }
+  
+  
